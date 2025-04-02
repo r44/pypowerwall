@@ -13,8 +13,8 @@ echo "Activating virtual environment: $VENV_DIR"
 source "$VENV_DIR/bin/activate"
 
 # --- Run Python Script ---
-echo "Running Python script: python3 $PYTHON_RESERVE_SCRIPT --debug > $LOG_FILE"
-python3 "$PYTHON_MODE_SCRIPT" >> "$LOG_FILE"
+echo "Running Python script: python3 $PYTHON_SCRIPT > $LOG_FILE"
+python3 "$PYTHON_SCRIPT" > "$LOG_FILE"
 
 # --- Deactivate Virtual Environment ---
 deactivate
