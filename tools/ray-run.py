@@ -293,6 +293,8 @@ def control():
   current_battery_level = int(powerwall_data["percentage_charged"])
   print("Current level", current_battery_level)
 
+  # TODO: calculate when to start charging base on the battery level.
+
   set_mode(target_mode)
 
   updated_data = get_level()
