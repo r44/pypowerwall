@@ -4,33 +4,33 @@
 # Set to self serve
 # Run every two minutes from 00:00 to 00:10.
 
-2 0 * * * /home/ubuntu/Repos/pypowerwall/tools/cron-ray-power.sh > /home/ubuntu/Repos/pypowerwall/tools/log-cron-ray-power.log 2>&1
-4 0 * * * /home/ubuntu/Repos/pypowerwall/tools/cron-ray-power.sh > /home/ubuntu/Repos/pypowerwall/tools/log-cron-ray-power.log 2>&1
-6 0 * * * /home/ubuntu/Repos/pypowerwall/tools/cron-ray-power.sh > /home/ubuntu/Repos/pypowerwall/tools/log-cron-ray-power.log 2>&1
-8 0 * * * /home/ubuntu/Repos/pypowerwall/tools/cron-ray-power.sh > /home/ubuntu/Repos/pypowerwall/tools/log-cron-ray-power.log 2>&1
-10 0 * * * /home/ubuntu/Repos/pypowerwall/tools/cron-ray-power.sh > /home/ubuntu/Repos/pypowerwall/tools/log-cron-ray-power.log 2>&1
+2 0 * * * bash /home/ubuntu/Repos/pypowerwall/tools/cron-ray-power.sh > /home/ubuntu/Repos/pypowerwall/tools/log-cron-ray-power.log 2>&1
+4 0 * * * bash /home/ubuntu/Repos/pypowerwall/tools/cron-ray-power.sh > /home/ubuntu/Repos/pypowerwall/tools/log-cron-ray-power.log 2>&1
+6 0 * * * bash /home/ubuntu/Repos/pypowerwall/tools/cron-ray-power.sh > /home/ubuntu/Repos/pypowerwall/tools/log-cron-ray-power.log 2>&1
+8 0 * * * bash /home/ubuntu/Repos/pypowerwall/tools/cron-ray-power.sh > /home/ubuntu/Repos/pypowerwall/tools/log-cron-ray-power.log 2>&1
+10 0 * * * bash /home/ubuntu/Repos/pypowerwall/tools/cron-ray-power.sh > /home/ubuntu/Repos/pypowerwall/tools/log-cron-ray-power.log 2>&1
 
 
 # Set to charge from Grid
 # Run every 10 minutes from 12:00 to 14:50.
-*/10 12 * * * /home/ubuntu/Repos/pypowerwall/tools/cron-ray-power.sh > /home/ubuntu/Repos/pypowerwall/tools/log-cron-ray-power.log 2>&1
-*/10 13 * * * /home/ubuntu/Repos/pypowerwall/tools/cron-ray-power.sh > /home/ubuntu/Repos/pypowerwall/tools/log-cron-ray-power.log 2>&1
-*/10 14 * * * /home/ubuntu/Repos/pypowerwall/tools/cron-ray-power.sh > /home/ubuntu/Repos/pypowerwall/tools/log-cron-ray-power.log 2>&1
+*/10 12 * * * bash /home/ubuntu/Repos/pypowerwall/tools/cron-ray-power.sh > /home/ubuntu/Repos/pypowerwall/tools/log-cron-ray-power.log 2>&1
+*/10 13 * * * bash /home/ubuntu/Repos/pypowerwall/tools/cron-ray-power.sh > /home/ubuntu/Repos/pypowerwall/tools/log-cron-ray-power.log 2>&1
+*/10 14 * * * bash /home/ubuntu/Repos/pypowerwall/tools/cron-ray-power.sh > /home/ubuntu/Repos/pypowerwall/tools/log-cron-ray-power.log 2>&1
 
 
 # Set not to charge: SELF
 # Run every two minutes from 15:00 to 15:10.
-2 15 * * * /home/ubuntu/Repos/pypowerwall/tools/cron-ray-power.sh > /home/ubuntu/Repos/pypowerwall/tools/log-cron-ray-power.log 2>&1
-4 15 * * * /home/ubuntu/Repos/pypowerwall/tools/cron-ray-power.sh > /home/ubuntu/Repos/pypowerwall/tools/log-cron-ray-power.log 2>&1
-6 15 * * * /home/ubuntu/Repos/pypowerwall/tools/cron-ray-power.sh > /home/ubuntu/Repos/pypowerwall/tools/log-cron-ray-power.log 2>&1
-8 15 * * * /home/ubuntu/Repos/pypowerwall/tools/cron-ray-power.sh > /home/ubuntu/Repos/pypowerwall/tools/log-cron-ray-power.log 2>&1
-10 15 * * * /home/ubuntu/Repos/pypowerwall/tools/cron-ray-power.sh > /home/ubuntu/Repos/pypowerwall/tools/log-cron-ray-power.log 2>&1
+2 15 * * * bash /home/ubuntu/Repos/pypowerwall/tools/cron-ray-power.sh > /home/ubuntu/Repos/pypowerwall/tools/log-cron-ray-power.log 2>&1
+4 15 * * * bash /home/ubuntu/Repos/pypowerwall/tools/cron-ray-power.sh > /home/ubuntu/Repos/pypowerwall/tools/log-cron-ray-power.log 2>&1
+6 15 * * * bash /home/ubuntu/Repos/pypowerwall/tools/cron-ray-power.sh > /home/ubuntu/Repos/pypowerwall/tools/log-cron-ray-power.log 2>&1
+8 15 * * * bash /home/ubuntu/Repos/pypowerwall/tools/cron-ray-power.sh > /home/ubuntu/Repos/pypowerwall/tools/log-cron-ray-power.log 2>&1
+10 15 * * * bash /home/ubuntu/Repos/pypowerwall/tools/cron-ray-power.sh > /home/ubuntu/Repos/pypowerwall/tools/log-cron-ray-power.log 2>&1
 
 
 # Set to sell to Grid
 # Run every two minutes from 19:00 to 19:10.
-2 19 * * * /home/ubuntu/Repos/pypowerwall/tools/cron-ray-power.sh > /home/ubuntu/Repos/pypowerwall/tools/log-cron-ray-power.log 2>&1
-4 19 * * * /home/ubuntu/Repos/pypowerwall/tools/cron-ray-power.sh > /home/ubuntu/Repos/pypowerwall/tools/log-cron-ray-power.log 2>&1
-6 19 * * * /home/ubuntu/Repos/pypowerwall/tools/cron-ray-power.sh > /home/ubuntu/Repos/pypowerwall/tools/log-cron-ray-power.log 2>&1
-8 19 * * * /home/ubuntu/Repos/pypowerwall/tools/cron-ray-power.sh > /home/ubuntu/Repos/pypowerwall/tools/log-cron-ray-power.log 2>&1
-10 19 * * * /home/ubuntu/Repos/pypowerwall/tools/cron-ray-power.sh > /home/ubuntu/Repos/pypowerwall/tools/log-cron-ray-power.log 2>&1
+2 19 * * * bash /home/ubuntu/Repos/pypowerwall/tools/cron-ray-power.sh > /home/ubuntu/Repos/pypowerwall/tools/log-cron-ray-power.log 2>&1
+4 19 * * * bash /home/ubuntu/Repos/pypowerwall/tools/cron-ray-power.sh > /home/ubuntu/Repos/pypowerwall/tools/log-cron-ray-power.log 2>&1
+6 19 * * * bash /home/ubuntu/Repos/pypowerwall/tools/cron-ray-power.sh > /home/ubuntu/Repos/pypowerwall/tools/log-cron-ray-power.log 2>&1
+8 19 * * * bash /home/ubuntu/Repos/pypowerwall/tools/cron-ray-power.sh > /home/ubuntu/Repos/pypowerwall/tools/log-cron-ray-power.log 2>&1
+10 19 * * * bash /home/ubuntu/Repos/pypowerwall/tools/cron-ray-power.sh > /home/ubuntu/Repos/pypowerwall/tools/log-cron-ray-power.log 2>&1

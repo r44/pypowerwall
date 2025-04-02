@@ -29,11 +29,11 @@ TIME_MODE_MAP = {
     # Only use the remaing battery or solar.
     ("00:00", "12:00"): MODE_SELF,
     # Start charging.
-    # P2: Check if we remain in SELF if there's suffiient from solar.
+    # TODO: Check if we remain in SELF if there's suffiient from solar.
     # Otherwise, start charging.
     ("12:00", "15:00"): MODE_AUTO,
     # Don't sell from battery until the later half of the peak.
-    ("15:00", "19:30"): MODE_SELF,
+    ("15:00", "19:00"): MODE_SELF,
     # Start selling.
     # ("19:00", "23:59"): MODE_SELF,
     ("19:00", "23:59"): MODE_AUTO,

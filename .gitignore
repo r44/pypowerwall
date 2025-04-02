@@ -162,3 +162,5 @@ tools/tedapi/components.json
 tools/tedapi/manypw3.json
 tools/tedapi/pw3.json
 tools/tedapi/test.py
+
+solar-venv/

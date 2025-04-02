@@ -1,4 +1,5 @@
 #!/bin/bash
+
 # --- Configuration ---
 WORK_DIR="/home/ubuntu/Repos/pypowerwall"
 VENV_DIR="$WORK_DIR/env"
