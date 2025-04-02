@@ -3,7 +3,7 @@
 
 # Set to self serve
 # Run every two minutes from 00:00 to 00:10.
-
+0 0 * * * bash /home/ubuntu/Repos/pypowerwall/tools/cron-ray-power.sh > /home/ubuntu/Repos/pypowerwall/tools/log-cron-ray-power.log 2>&1
 2 0 * * * bash /home/ubuntu/Repos/pypowerwall/tools/cron-ray-power.sh > /home/ubuntu/Repos/pypowerwall/tools/log-cron-ray-power.log 2>&1
 4 0 * * * bash /home/ubuntu/Repos/pypowerwall/tools/cron-ray-power.sh > /home/ubuntu/Repos/pypowerwall/tools/log-cron-ray-power.log 2>&1
 6 0 * * * bash /home/ubuntu/Repos/pypowerwall/tools/cron-ray-power.sh > /home/ubuntu/Repos/pypowerwall/tools/log-cron-ray-power.log 2>&1

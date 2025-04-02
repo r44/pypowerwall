@@ -48,8 +48,6 @@ SCRIPTNAME = os.path.basename(sys.argv[0]).split(".")[0]
 CONFIGNAME = CONFIGFILE = "set-reserve.conf"
 AUTHFILE = f"{SCRIPTNAME}.auth"
 
-print("Checking CONFIGFILE", CONFIGFILE)
-
 # Load Configuration File
 config = configparser.ConfigParser(allow_no_value=True)
 if not os.path.exists(CONFIGFILE) and "/" not in CONFIGFILE:
@@ -294,7 +292,6 @@ def control():
   print("Current level", current_battery_level)
 
   # TODO: calculate when to start charging base on the battery level.
-
   set_mode(target_mode)
 
   updated_data = get_level()
