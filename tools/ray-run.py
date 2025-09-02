@@ -286,6 +286,7 @@ def control():
   print(f"Current Operational Mode: {mode} with {pw_count} Powerwalls")
 
   if mode == target_mode:
+    print(f"Skip updating the mode which is already the target: {mode}")
     sys.exit(f"Skip updating the mode which is already the target: {mode}")
 
   current_battery_level = int(powerwall_data["percentage_charged"])
